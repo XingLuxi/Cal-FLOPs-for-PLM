@@ -17,7 +17,7 @@ pip install ptflops
 ```
 
 Requirements: 
-* Pytorch >= 0.4.1
+* Pytorch >= 1.0.0
 * transformers >= 2.2.0
 
 ## Example
