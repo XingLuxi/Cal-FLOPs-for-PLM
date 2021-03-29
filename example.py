@@ -71,7 +71,7 @@ def cal_plm_flops_with_ptflops(path, model_class, tok_class, batch_size, max_seq
         print_per_layer_stat=False
     )
     print("%s | %s | %s" % ("[ptflops]", "Params(M)", "FLOPs(G)"))
-    print("{}".format(model_class.__name__))
+    print("Model:  {}".format(model_class.__name__))
     print('{:<30}  {:<8}'.format('Computational complexity: ', flops_count))
     print('{:<30}  {:<8}'.format('Number of parameters: ', params_count))
 
