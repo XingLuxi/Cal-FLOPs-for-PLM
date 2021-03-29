@@ -106,3 +106,5 @@ if __name__ == '__main__':
     
     cal_plm_flops_with_ptflops(PLM_PATH_ROBERTA, RobertaForSequenceClassification, RobertaTokenizer, batch_size, max_seq_length)
     cal_plm_flops_with_thop(PLM_PATH_ROBERTA, RobertaForSequenceClassification, RobertaTokenizer, batch_size, max_seq_length)
+    
+    # output FLOPs = 38.66
